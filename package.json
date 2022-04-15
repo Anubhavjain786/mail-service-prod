@@ -1,0 +1,15 @@
+{
+  "name": "mail-service-prod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anubhav Jain",
+  "license": "ISC",
+  "dependencies": {
+    "@middy/core": "^2.5.7",
+    "@middy/sqs-partial-batch-failure": "^2.5.7"
+  }
+}
